@@ -1,0 +1,739 @@
+{
+  "generatedAt": "2026-09-14T09:03:55.727Z",
+  "agent": "TVB Target Company Discovery Agent",
+  "totalCandidates": 6,
+  "passedCandidates": 4,
+  "rejectedCandidates": 2,
+  "audit": [
+    {
+      "id": "audit_1_meilisearch_com",
+      "companyName": "Meilisearch",
+      "website": "https://meilisearch.com",
+      "domain": "meilisearch.com",
+      "overallPassed": true,
+      "rejectReasons": [],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": true,
+          "value": {
+            "amountUsd": 5000000,
+            "displayAmount": "$5.0M USD",
+            "type": "funding"
+          },
+          "evidence": "Reported funding: $5.0M USD found in source text.",
+          "sourceUrl": "https://meilisearch.com/blog/seed-announcement"
+        },
+        "techPlatform": {
+          "passed": true,
+          "value": {
+            "category": "Search Engine API Platform",
+            "productDescription": "Paris, France — Meilisearch SAS, developer of a lightweight, instant search engine API platform, announced $5.0M in seed funding led by Seedcamp. Co-founder and CEO Quentin de Quelen emphasized the company is proudly headquartered in Paris with no US headquarters."
+          },
+          "evidence": "Classified as Search Engine API Platform.",
+          "sourceUrl": "https://meilisearch.com/blog/seed-announcement"
+        },
+        "nonUsPresence": {
+          "passed": true,
+          "value": {
+            "country": "France",
+            "headquarters": "Paris"
+          },
+          "evidence": "Operations located in Paris, France.",
+          "sourceUrl": "https://meilisearch.com/blog/seed-announcement"
+        },
+        "verifiedFounderEmail": {
+          "passed": true,
+          "value": {
+            "founderName": "Quentin de Quelen",
+            "title": "CEO",
+            "email": "quentin@meilisearch.com",
+            "hunterStatus": "valid",
+            "deliverabilityScore": 98
+          },
+          "evidence": "Verified Deliverable (98% score via Hunter.io) for Quentin de Quelen (CEO).",
+          "sourceUrl": "https://meilisearch.com/blog/seed-announcement"
+        }
+      },
+      "sources": [
+        {
+          "title": "Meilisearch raises $5.0M Seed to Accelerate Open-Source Search Engine Platform",
+          "url": "https://meilisearch.com/blog/seed-announcement",
+          "snippet": "Paris, France — Meilisearch SAS, developer of a lightweight, instant search engine API platform, announced $5.0M in seed funding led by Seedcamp. Co-founder and CEO Quentin de Quelen emphasized the company is proudly headquartered in Paris with no US headquarters.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "hunterVerificationRaw": {
+        "data": {
+          "first_name": "Quentin",
+          "last_name": "De Quelen",
+          "email": "quentin@meilisearch.com",
+          "score": 98,
+          "domain": "meilisearch.com",
+          "accept_all": false,
+          "position": "CEO",
+          "twitter": null,
+          "linkedin_url": "https://www.linkedin.com/in/quentin-de-quelen-4241a865",
+          "phone_number": null,
+          "company": "Meilisearch",
+          "source_type": "found",
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20quentin%20de+quelen%20meilisearch",
+              "extracted_on": "2025-01-07",
+              "last_seen_on": "2026-08-22",
+              "still_on_page": true
+            },
+            {
+              "domain": "meilisearch.com",
+              "uri": "https://meilisearch.com/docs/guides/security/http2_ssl",
+              "extracted_on": "2024-09-23",
+              "last_seen_on": "2024-09-23",
+              "still_on_page": true
+            }
+          ],
+          "verification": {
+            "date": "2026-09-14",
+            "status": "valid"
+          }
+        },
+        "meta": {
+          "params": {
+            "first_name": "Quentin",
+            "last_name": "de Quelen",
+            "full_name": null,
+            "domain": "meilisearch.com",
+            "company": null,
+            "linkedin_handle": null,
+            "max_duration": null
+          }
+        }
+      },
+      "discoveredAt": "2026-09-14T09:03:54.440Z"
+    },
+    {
+      "id": "audit_2_baserow_io",
+      "companyName": "Baserow",
+      "website": "https://baserow.io",
+      "domain": "baserow.io",
+      "overallPassed": true,
+      "rejectReasons": [],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": true,
+          "value": {
+            "amountUsd": 5000000,
+            "displayAmount": "$5.0M USD",
+            "type": "funding"
+          },
+          "evidence": "Reported funding: $5.0M USD found in source text.",
+          "sourceUrl": "https://baserow.io/blog/seed-round-announcement"
+        },
+        "techPlatform": {
+          "passed": true,
+          "value": {
+            "category": "Database Cloud Platform",
+            "productDescription": "Amsterdam, Netherlands — Baserow BV closed €4.8M ($5.0M USD) in seed financing. Founder & CEO Bram Wiepjes confirmed all operations and engineering remain strictly in the Netherlands, providing modular database SaaS for global teams."
+          },
+          "evidence": "Classified as Database Cloud Platform.",
+          "sourceUrl": "https://baserow.io/blog/seed-round-announcement"
+        },
+        "nonUsPresence": {
+          "passed": true,
+          "value": {
+            "country": "Netherlands",
+            "headquarters": "Amsterdam"
+          },
+          "evidence": "Operations located in Amsterdam, Netherlands.",
+          "sourceUrl": "https://baserow.io/blog/seed-round-announcement"
+        },
+        "verifiedFounderEmail": {
+          "passed": true,
+          "value": {
+            "founderName": "Bram Wiepjes",
+            "title": "CEO",
+            "email": "bram@baserow.io",
+            "hunterStatus": "valid",
+            "deliverabilityScore": 98
+          },
+          "evidence": "Verified Deliverable (98% score via Hunter.io) for Bram Wiepjes (CEO).",
+          "sourceUrl": "https://baserow.io/blog/seed-round-announcement"
+        }
+      },
+      "sources": [
+        {
+          "title": "Baserow Secures €4.8M ($5.0M) Seed Round for Open Source No-Code Database Platform",
+          "url": "https://baserow.io/blog/seed-round-announcement",
+          "snippet": "Amsterdam, Netherlands — Baserow BV closed €4.8M ($5.0M USD) in seed financing. Founder & CEO Bram Wiepjes confirmed all operations and engineering remain strictly in the Netherlands, providing modular database SaaS for global teams.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "hunterVerificationRaw": {
+        "data": {
+          "first_name": "Bram",
+          "last_name": "Wiepjes",
+          "email": "bram@baserow.io",
+          "score": 98,
+          "domain": "baserow.io",
+          "accept_all": false,
+          "position": "CEO",
+          "twitter": null,
+          "linkedin_url": "https://www.linkedin.com/in/bram-wiepjes-a197a5129",
+          "phone_number": null,
+          "company": "Baserow",
+          "source_type": "found",
+          "sources": [
+            {
+              "domain": "fossjobs.net",
+              "uri": "https://fossjobs.net/job/10818/community-manager-at-baserow",
+              "extracted_on": "2023-01-06",
+              "last_seen_on": "2026-09-02",
+              "still_on_page": true
+            },
+            {
+              "domain": "community.baserow.io",
+              "uri": "https://community.baserow.io/t/email-change-to-baserow-account/6289",
+              "extracted_on": "2025-05-31",
+              "last_seen_on": "2026-08-30",
+              "still_on_page": true
+            },
+            {
+              "domain": "community.baserow.io",
+              "uri": "https://community.baserow.io/t/large-migration-from-airtable-what-are-the-limitations/5446",
+              "extracted_on": "2026-08-27",
+              "last_seen_on": "2026-08-27",
+              "still_on_page": true
+            },
+            {
+              "domain": "community.baserow.io",
+              "uri": "https://community.baserow.io/t/the-baserow-community-culture-guidelines/1680",
+              "extracted_on": "2026-08-27",
+              "last_seen_on": "2026-08-27",
+              "still_on_page": true
+            },
+            {
+              "domain": "community.baserow.io",
+              "uri": "https://community.baserow.io/tos",
+              "extracted_on": "2023-07-15",
+              "last_seen_on": "2026-08-27",
+              "still_on_page": true
+            },
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20bram%20wiepjes%20baserow",
+              "extracted_on": "2025-01-09",
+              "last_seen_on": "2026-08-25",
+              "still_on_page": true
+            },
+            {
+              "domain": "console.cloud.statemesh.net",
+              "uri": "https://console.cloud.statemesh.net/template-details/8aa5d90e-0f60-4feb-8126-234354ba9f77",
+              "extracted_on": "2026-05-21",
+              "last_seen_on": "2026-08-22",
+              "still_on_page": true
+            },
+            {
+              "domain": "github.com",
+              "uri": "https://github.com/baserow/baserow",
+              "extracted_on": "2026-08-20",
+              "last_seen_on": "2026-08-20",
+              "still_on_page": true
+            },
+            {
+              "domain": "archestra.ai",
+              "uri": "https://archestra.ai/mcp-catalog/bram2w__baserow",
+              "extracted_on": "2026-05-07",
+              "last_seen_on": "2026-08-05",
+              "still_on_page": true
+            },
+            {
+              "domain": "remotepython.com",
+              "uri": "https://remotepython.com/jobs/442739e7c8344e90a015701a0f7703c1",
+              "extracted_on": "2023-02-01",
+              "last_seen_on": "2026-07-31",
+              "still_on_page": true
+            },
+            {
+              "domain": "killerstartups.com",
+              "uri": "https://killerstartups.com/todays-killer-startup/get-the-most-out-of-your-online-data",
+              "extracted_on": "2019-09-13",
+              "last_seen_on": "2026-07-27",
+              "still_on_page": true
+            },
+            {
+              "domain": "djangojobboard.com",
+              "uri": "https://djangojobboard.com/332/senior-full-stack-developer-baserow",
+              "extracted_on": "2026-07-01",
+              "last_seen_on": "2026-07-01",
+              "still_on_page": true
+            },
+            {
+              "domain": "baserow.io",
+              "uri": "https://baserow.io/style-guide",
+              "extracted_on": "2023-02-11",
+              "last_seen_on": "2026-06-23",
+              "still_on_page": true
+            },
+            {
+              "domain": "libreselfhosted.com",
+              "uri": "https://libreselfhosted.com/project/baserow",
+              "extracted_on": "2025-02-24",
+              "last_seen_on": "2026-05-26",
+              "still_on_page": false
+            },
+            {
+              "domain": "python.org",
+              "uri": "https://python.org/jobs/7705",
+              "extracted_on": "2024-10-16",
+              "last_seen_on": "2024-10-16",
+              "still_on_page": false
+            },
+            {
+              "domain": "ossdatabase.com",
+              "uri": "https://ossdatabase.com/projects/baserow-bdfcbb45-6dd7-4921-8c5f-d68db67d11fe",
+              "extracted_on": "2023-06-08",
+              "last_seen_on": "2024-08-09",
+              "still_on_page": false
+            },
+            {
+              "domain": "djangolearn.com",
+              "uri": "https://djangolearn.com/p/baserow-is-an-open-source-nocode-database-tool-and-airtable-alternative",
+              "extracted_on": "2023-12-23",
+              "last_seen_on": "2023-12-23",
+              "still_on_page": false
+            },
+            {
+              "domain": "githubmemory.com",
+              "uri": "https://githubmemory.com/repo/bram2w/baserow",
+              "extracted_on": "2021-09-26",
+              "last_seen_on": "2023-07-04",
+              "still_on_page": false
+            },
+            {
+              "domain": "chinano1.life",
+              "uri": "https://chinano1.life/jobs/7210",
+              "extracted_on": "2023-06-30",
+              "last_seen_on": "2023-06-30",
+              "still_on_page": false
+            },
+            {
+              "domain": "plural.sh",
+              "uri": "https://plural.sh/applications/baserow",
+              "extracted_on": "2023-06-12",
+              "last_seen_on": "2023-06-12",
+              "still_on_page": false
+            },
+            {
+              "domain": "python.domainunion.de",
+              "uri": "https://python.domainunion.de/jobs/7210",
+              "extracted_on": "2023-05-29",
+              "last_seen_on": "2023-06-01",
+              "still_on_page": false
+            },
+            {
+              "domain": "zack2022.xyz",
+              "uri": "https://zack2022.xyz/jobs/7210",
+              "extracted_on": "2023-05-31",
+              "last_seen_on": "2023-05-31",
+              "still_on_page": false
+            },
+            {
+              "domain": "ossdatabase.com",
+              "uri": "https://ossdatabase.com/projects/baserow",
+              "extracted_on": "2023-03-06",
+              "last_seen_on": "2023-03-06",
+              "still_on_page": false
+            },
+            {
+              "domain": "remoteineurope.com",
+              "uri": "https://remoteineurope.com/categories/devops",
+              "extracted_on": "2022-12-29",
+              "last_seen_on": "2022-12-29",
+              "still_on_page": false
+            },
+            {
+              "domain": "githublab.com",
+              "uri": "https://githublab.com/repository/bram2w/baserow",
+              "extracted_on": "2022-01-19",
+              "last_seen_on": "2022-10-20",
+              "still_on_page": false
+            }
+          ],
+          "verification": {
+            "date": "2026-09-08",
+            "status": "valid"
+          }
+        },
+        "meta": {
+          "params": {
+            "first_name": "Bram",
+            "last_name": "Wiepjes",
+            "full_name": null,
+            "domain": "baserow.io",
+            "company": null,
+            "linkedin_handle": null,
+            "max_duration": null
+          }
+        }
+      },
+      "discoveredAt": "2026-09-14T09:03:54.795Z"
+    },
+    {
+      "id": "audit_3_plausible_io",
+      "companyName": "Plausible Analytics",
+      "website": "https://plausible.io",
+      "domain": "plausible.io",
+      "overallPassed": true,
+      "rejectReasons": [],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": true,
+          "value": {
+            "amountUsd": 1800000,
+            "displayAmount": "$1.8M USD",
+            "type": "arr"
+          },
+          "evidence": "Reported arr: $1.8M USD found in source text.",
+          "sourceUrl": "https://plausible.io/blog/arr-milestone"
+        },
+        "techPlatform": {
+          "passed": true,
+          "value": {
+            "category": "B2B Analytics Platform",
+            "productDescription": "Tallinn, Estonia — Plausible Analytics announced reaching $1.8M in annual recurring revenue (ARR). Co-founder Marko Saric confirmed that the self-funded European B2B analytics platform operates strictly within the EU with zero US physical presence."
+          },
+          "evidence": "Classified as B2B Analytics Platform.",
+          "sourceUrl": "https://plausible.io/blog/arr-milestone"
+        },
+        "nonUsPresence": {
+          "passed": true,
+          "value": {
+            "country": "Estonia",
+            "headquarters": "Tallinn"
+          },
+          "evidence": "Operations located in Tallinn, Estonia.",
+          "sourceUrl": "https://plausible.io/blog/arr-milestone"
+        },
+        "verifiedFounderEmail": {
+          "passed": true,
+          "value": {
+            "founderName": "Marko Saric",
+            "title": "Co-Founder",
+            "email": "marko@plausible.io",
+            "hunterStatus": "valid",
+            "deliverabilityScore": 96
+          },
+          "evidence": "Verified Deliverable (96% score via Hunter.io) for Marko Saric (Co-Founder).",
+          "sourceUrl": "https://plausible.io/blog/arr-milestone"
+        }
+      },
+      "sources": [
+        {
+          "title": "Plausible Analytics Reaches $1.8M ARR With Privacy-First Web Analytics Platform",
+          "url": "https://plausible.io/blog/arr-milestone",
+          "snippet": "Tallinn, Estonia — Plausible Analytics announced reaching $1.8M in annual recurring revenue (ARR). Co-founder Marko Saric confirmed that the self-funded European B2B analytics platform operates strictly within the EU with zero US physical presence.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "hunterVerificationRaw": {
+        "data": {
+          "first_name": "Marko",
+          "last_name": "Saric",
+          "email": "marko@plausible.io",
+          "score": 96,
+          "domain": "plausible.io",
+          "accept_all": false,
+          "position": "Co-Founder",
+          "twitter": null,
+          "linkedin_url": "https://www.linkedin.com/in/markosaric",
+          "phone_number": null,
+          "company": "Plausible Analytics",
+          "source_type": "generated",
+          "sources": [
+            {
+              "domain": "copperanalytics.com",
+              "uri": "https://copperanalytics.com/blog/plausible-vs-fathom",
+              "extracted_on": "2026-04-06",
+              "last_seen_on": "2026-04-06",
+              "still_on_page": true
+            },
+            {
+              "domain": "expre.co.uk",
+              "uri": "https://expre.co.uk/the-future-of-ai-in-wordpress-and-drupal-how-websites-will-evolve",
+              "extracted_on": "2026-02-06",
+              "last_seen_on": "2026-02-06",
+              "still_on_page": true
+            },
+            {
+              "domain": "bootstrap.email",
+              "uri": "https://bootstrap.email/archive/19",
+              "extracted_on": "2024-02-24",
+              "last_seen_on": "2024-05-24",
+              "still_on_page": true
+            },
+            {
+              "domain": "ghost.org",
+              "uri": "https://ghost.org/resources/web-analytics",
+              "extracted_on": "2024-02-23",
+              "last_seen_on": "2024-05-23",
+              "still_on_page": true
+            },
+            {
+              "domain": "blog.paranoidpenguin.net",
+              "uri": "https://blog.paranoidpenguin.net/2020/07/plausible-analytics-review-browser-fingerprinting-and-cname-cloaking",
+              "extracted_on": "2024-04-04",
+              "last_seen_on": "2024-04-04",
+              "still_on_page": true
+            }
+          ],
+          "verification": {
+            "date": "2026-09-07",
+            "status": "valid"
+          }
+        },
+        "meta": {
+          "params": {
+            "first_name": "Marko",
+            "last_name": "Saric",
+            "full_name": null,
+            "domain": "plausible.io",
+            "company": null,
+            "linkedin_handle": null,
+            "max_duration": null
+          }
+        }
+      },
+      "discoveredAt": "2026-09-14T09:03:55.214Z"
+    },
+    {
+      "id": "audit_4_raycast_com",
+      "companyName": "Raycast",
+      "website": "https://raycast.com",
+      "domain": "raycast.com",
+      "overallPassed": true,
+      "rejectReasons": [],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": true,
+          "value": {
+            "amountUsd": 2700000,
+            "displayAmount": "$2.7M USD",
+            "type": "funding"
+          },
+          "evidence": "Reported funding: $2.7M USD found in source text.",
+          "sourceUrl": "https://raycast.com/blog/seed-round"
+        },
+        "techPlatform": {
+          "passed": true,
+          "value": {
+            "category": "Developer API Platform",
+            "productDescription": "London, United Kingdom — Raycast Ltd announced a $2.7M seed round led by Accel. Co-founder & CEO Thomas Mann leads the London-based software team building keyboard-first extensible launcher platforms."
+          },
+          "evidence": "Classified as Developer API Platform.",
+          "sourceUrl": "https://raycast.com/blog/seed-round"
+        },
+        "nonUsPresence": {
+          "passed": true,
+          "value": {
+            "country": "United Kingdom",
+            "headquarters": "London"
+          },
+          "evidence": "Operations located in London, United Kingdom.",
+          "sourceUrl": "https://raycast.com/blog/seed-round"
+        },
+        "verifiedFounderEmail": {
+          "passed": true,
+          "value": {
+            "founderName": "Thomas Mann",
+            "title": "CEO",
+            "email": "thomas@raycast.com",
+            "hunterStatus": "valid",
+            "deliverabilityScore": 82
+          },
+          "evidence": "Verified Deliverable (82% score via Hunter.io) for Thomas Mann (CEO).",
+          "sourceUrl": "https://raycast.com/blog/seed-round"
+        }
+      },
+      "sources": [
+        {
+          "title": "Raycast Secures $2.7M Seed Funding for Productivity Developer Platform (REJECT TEST: Accept-All Email)",
+          "url": "https://raycast.com/blog/seed-round",
+          "snippet": "London, United Kingdom — Raycast Ltd announced a $2.7M seed round led by Accel. Co-founder & CEO Thomas Mann leads the London-based software team building keyboard-first extensible launcher platforms.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "hunterVerificationRaw": {
+        "data": {
+          "first_name": "Thomas",
+          "last_name": "Mann",
+          "email": "thomas@raycast.com",
+          "score": 82,
+          "domain": "raycast.com",
+          "accept_all": true,
+          "position": "CEO",
+          "twitter": null,
+          "linkedin_url": "https://www.linkedin.com/in/thomas-paul-mann-5183101a4",
+          "phone_number": null,
+          "company": "Raycast",
+          "source_type": "found",
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20thomas%20mann%20raycast",
+              "extracted_on": "2025-01-14",
+              "last_seen_on": "2026-08-25",
+              "still_on_page": true
+            }
+          ],
+          "verification": {
+            "date": "2026-09-14",
+            "status": "valid"
+          }
+        },
+        "meta": {
+          "params": {
+            "first_name": "Thomas",
+            "last_name": "Mann",
+            "full_name": null,
+            "domain": "raycast.com",
+            "company": null,
+            "linkedin_handle": null,
+            "max_duration": null
+          }
+        }
+      },
+      "discoveredAt": "2026-09-14T09:03:55.726Z"
+    },
+    {
+      "id": "audit_5_datafleet_com",
+      "companyName": "DataFleet Americas",
+      "website": "https://datafleet.com",
+      "domain": "datafleet.com",
+      "overallPassed": false,
+      "rejectReasons": [
+        "US presence detected: US locations or headquarters detected in snippet..",
+        "No professional founder email found."
+      ],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": true,
+          "value": {
+            "amountUsd": 3000000,
+            "displayAmount": "$3.0M USD",
+            "type": "funding"
+          },
+          "evidence": "Reported funding: $3.0M USD found in source text.",
+          "sourceUrl": "https://datafleet.com/press"
+        },
+        "techPlatform": {
+          "passed": true,
+          "value": {
+            "category": "Industrial IoT Cloud Platform",
+            "productDescription": "San Francisco, CA — DataFleet Inc, an autonomous fleet telemetry platform, announced $3.0M in Seed funding. Headquartered in Silicon Valley with offices in Austin and New York. CEO David Miller."
+          },
+          "evidence": "Classified as Industrial IoT Cloud Platform.",
+          "sourceUrl": "https://datafleet.com/press"
+        },
+        "nonUsPresence": {
+          "passed": false,
+          "value": {
+            "country": "United States",
+            "headquarters": "San Francisco, CA",
+            "usPresenceEvidence": "US locations or headquarters detected in snippet."
+          },
+          "evidence": "Operations located in San Francisco, CA, United States.",
+          "sourceUrl": "https://datafleet.com/press",
+          "failureReason": "US presence detected: US locations or headquarters detected in snippet.."
+        },
+        "verifiedFounderEmail": {
+          "passed": false,
+          "value": {
+            "founderName": "David Miller",
+            "title": "CEO",
+            "email": "",
+            "hunterStatus": "missing",
+            "deliverabilityScore": 0
+          },
+          "evidence": "No professional founder email found.",
+          "sourceUrl": "https://datafleet.com/press",
+          "failureReason": "No professional founder email found."
+        }
+      },
+      "sources": [
+        {
+          "title": "DataFleet Americas — San Francisco Fleet Management Software (REJECT TEST: US HQ)",
+          "url": "https://datafleet.com/press",
+          "snippet": "San Francisco, CA — DataFleet Inc, an autonomous fleet telemetry platform, announced $3.0M in Seed funding. Headquartered in Silicon Valley with offices in Austin and New York. CEO David Miller.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "discoveredAt": "2026-09-14T09:03:55.726Z"
+    },
+    {
+      "id": "audit_6_megacloud_co_uk",
+      "companyName": "MegaCloud Global",
+      "website": "https://megacloud.co.uk",
+      "domain": "megacloud.co.uk",
+      "overallPassed": false,
+      "rejectReasons": [
+        "Amount ($45.00M) exceeds maximum threshold of $5.0M USD.",
+        "Entity is not classified as a technology platform (found: \"unknown\").",
+        "No professional founder email found."
+      ],
+      "filters": {
+        "revenueOrFunding": {
+          "passed": false,
+          "value": {
+            "amountUsd": 45000000,
+            "displayAmount": "$45.0M USD",
+            "type": "arr"
+          },
+          "evidence": "Reported arr: $45.0M USD found in source text.",
+          "sourceUrl": "https://megacloud.co.uk/series-b",
+          "failureReason": "Amount ($45.00M) exceeds maximum threshold of $5.0M USD."
+        },
+        "techPlatform": {
+          "passed": false,
+          "value": {
+            "category": "",
+            "productDescription": "London, UK — MegaCloud Ltd closed a $45M Series B round led by Accel. Co-Founder & CEO Sarah Jenkins commented on reaching $22M ARR."
+          },
+          "evidence": "London, UK — MegaCloud Ltd closed a $45M Series B round led by Accel. Co-Founder & CEO Sarah Jenkins commented on reaching $22M ARR.",
+          "sourceUrl": "https://megacloud.co.uk/series-b",
+          "failureReason": "Entity is not classified as a technology platform (found: \"unknown\")."
+        },
+        "nonUsPresence": {
+          "passed": true,
+          "value": {
+            "country": "United Kingdom",
+            "headquarters": "London"
+          },
+          "evidence": "Operations located in London, United Kingdom.",
+          "sourceUrl": "https://megacloud.co.uk/series-b"
+        },
+        "verifiedFounderEmail": {
+          "passed": false,
+          "value": {
+            "founderName": "Sarah Jenkins",
+            "title": "Co-Founder & CEO",
+            "email": "",
+            "hunterStatus": "missing",
+            "deliverabilityScore": 0
+          },
+          "evidence": "No professional founder email found.",
+          "sourceUrl": "https://megacloud.co.uk/series-b",
+          "failureReason": "No professional founder email found."
+        }
+      },
+      "sources": [
+        {
+          "title": "MegaCloud Global Raises $45M Series B for Enterprise CRM (REJECT TEST: Revenue/Funding > $5M)",
+          "url": "https://megacloud.co.uk/series-b",
+          "snippet": "London, UK — MegaCloud Ltd closed a $45M Series B round led by Accel. Co-Founder & CEO Sarah Jenkins commented on reaching $22M ARR.",
+          "discoveredViaQuery": "\"tech platform\" \"seed round\" (\"$1.5M\" OR \"$2.5M\" OR \"$3M\" OR \"$4M\") (\"founder and CEO\" OR \"co-founder\") (Berlin OR Paris OR London OR Amsterdam OR Tokyo OR Sydney)"
+        }
+      ],
+      "discoveredAt": "2026-09-14T09:03:55.726Z"
+    }
+  ]
+}

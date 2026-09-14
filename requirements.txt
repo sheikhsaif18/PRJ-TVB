@@ -1,0 +1,2 @@
+# TVB Target Company Discovery Agent dependencies
+urllib3>=2.0.0
