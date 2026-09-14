@@ -2,5 +2,7 @@
   "name": "TVB Target Company Discovery Agent",
   "description": "Autonomous lead-discovery agent targeting non-US tech platforms with $1M-$5M revenue/funding and verified CEO/founder emails.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
